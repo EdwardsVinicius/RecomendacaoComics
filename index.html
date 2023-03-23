@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Comic Sans - Recomendando Filmes</title>
+    <meta name="description" content="Pipo - chatbot infantil"/>
+
+    <link href="https://fonts.googleapis.com/css?family=K2D:300,400,500,700,800" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+
+    <section class="bg-gradient pt-5 pb-6">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex flex-row align-items-center justify-content-between">
+                    <div class="heading-brand">Comic Sans</div>
+                    <a href="https://github.com/oyaho" class="btn btn-success svg-icon">
+                        <em class="mr-2" data-feather="github"></em>
+                        Fonte
+                    </a>
+                </div>
+            </div>
+            <div class="row mt-6">
+                <div class="col-md-8 mx-auto text-center">
+                    <h1>Digite seu filme favorito:</h1>
+                    <a class="lead mb-5" href="google.com">lista de referências</a>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-9 mx-auto">
+                    <div class="code-window">
+                        <div class="dots">
+                            <div class="red"></div>
+                            <div class="orange"></div>
+                            <div class="green"></div>
+                        </div>
+                        <form>
+                            <div class="form-group">
+                              <label for="userInput">Digite aqui:</label>
+                              <input type="text" class="form-control" id="userInput" placeholder="ex: Spider-man, Batman...">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send</button>
+                          </form>
+                          <div class="mt-5" id="recommendations"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.7.3/feather.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script>
+    $(document).ready(function() {
+  $('form').submit(function(event) {
+    event.preventDefault(); // Prevent the form from submitting
+    // Get the user's input
+    var userInput = $('#userInput').val();
+    console.log(userInput)
+
+    // Call the recommend_movies function and display the results
+    $.ajax({
+      url: 'http://localhost:8000/',
+      crossDomain: true,
+      dataType: "text",
+      data: { data: userInput },
+      success: function(response) {
+        console.log(response)
+        // Parse the JSON response from the server
+        var resultList = [];
+        if (response != 'Comic not found') {
+          json = JSON.parse(response);
+          console.log(json)
+        }
+
+
+        // Clear the existing results from the page
+        $('#results').empty();
+
+        // Create a new list element for each recommended movie and append it to the results div
+        for (var i in resultList) {
+          // var movieName = resultList[i];
+          var listItem = $('<li>').text(i);
+          $('#results').append(listItem);
+        }
+
+        $('#recommendations').append($('#results'))
+      }
+    })
+  })
+})
+
+    </script>

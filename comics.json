@@ -1,0 +1,126 @@
+[    
+    {   "id": 1,        
+        "name": "Spider-Man",       
+        "genres": ["Action", "Adventure", "Superhero"]
+    },
+    {
+        "id": 2,
+        "name": "Batman",
+        "genres": ["Action", "Crime", "Superhero"]
+    },
+    {
+        "id": 3,
+        "name": "Saga",
+        "genres": ["Science Fiction", "Fantasy", "Drama"]
+    },
+    {
+        "id": 4,
+        "name": "Watchmen",
+        "genres": ["Superhero", "Drama", "Mystery"]
+    },
+    {
+        "id": 5,
+        "name": "Sandman",
+        "genres": ["Fantasy", "Horror", "Drama"]
+    },
+    {        
+        "id": 6,       
+        "name": "X-Men",        
+        "genres": ["Superhero", "Action", "Adventure"]
+    },
+    {
+        "id": 7,
+        "name": "Superman",
+        "genres": ["Superhero", "Action", "Adventure"]
+    },
+    {
+        "id": 8,
+        "name": "The Walking Dead",
+        "genres": ["Horror", "Drama"]
+    },
+    {
+        "id": 9,
+        "name": "The Avengers",
+        "genres": ["Superhero", "Action", "Adventure"]
+    },
+    {
+        "id": 10,
+        "name": "Daredevil",
+        "genres": ["Superhero", "Crime", "Drama"]
+    },
+    {
+        "id": 11,
+        "name": "Hellboy",
+        "genres": ["Horror", "Fantasy", "Action"]
+    },
+    {
+        "id": 12,
+        "name": "Teenage Mutant Ninja Turtles",
+        "genres": ["Superhero", "Action", "Comedy"]
+    },
+    {
+        "id": 13,
+        "name": "Fables",
+        "genres": ["Fantasy", "Drama"]
+    },
+    {
+        "id": 14,
+        "name": "Preacher",
+        "genres": ["Horror", "Drama"]
+    },
+    {
+        "id": 15,
+        "name": "The Incredible Hulk",
+        "genres": ["Superhero", "Action", "Drama"]
+    },
+    {
+        "id": 16,
+        "name": "Spawn",
+        "genres": ["Superhero", "Horror", "Action"]
+    },
+    {
+        "id": 17,
+        "name": "Captain America",
+        "genres": ["Superhero", "Action", "Adventure"]
+    },
+    {
+        "id": 18,
+        "name": "The Flash",
+        "genres": ["Superhero", "Action", "Adventure"]
+    },
+    {
+        "id": 19,
+        "name": "Wonder Woman",
+        "genres": ["Superhero", "Action", "Adventure"]
+    },
+    {
+        "id": 20,
+        "name": "Judge Dredd",
+        "genres": ["Science Fiction", "Action", "Dystopian"]
+    },
+    {
+        "id": 21,
+        "name": "Transmetropolitan",
+        "genres": ["Science Fiction", "Dystopian", "Comedy"]
+    },
+    {
+        "id": 22,
+        "name": "Y: The Last Man",
+        "genres": ["Science Fiction", "Drama", "Adventure"]
+    },
+    {
+        "id": 23,
+        "name": "Batman: The Dark Knight Returns",
+        "genres": ["Superhero", "Action", "Drama"]
+    },
+    {
+        "id": 24,
+        "name": "The Punisher",
+        "genres": ["Superhero", "Crime", "Action"]
+    },
+    {
+        "id": 25,
+        "name": "Saga of the Swamp Thing",
+        "genres": ["Horror", "Fantasy", "Drama"]
+    }
+]

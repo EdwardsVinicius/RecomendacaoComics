@@ -1,0 +1,128 @@
+[    
+  
+    {        
+        "id": 1,        
+        "name": "The Dark Knight",        
+        "genres": ["Action", "Crime", "Drama"]
+    },
+    {
+        "id": 2,
+        "name": "Star Wars: A New Hope",
+        "genres": ["Science Fiction", "Action", "Adventure"]
+    },
+    {
+        "id": 3,
+        "name": "The Godfather",
+        "genres": ["Crime", "Drama"]
+    },
+    {
+        "id": 4,
+        "name": "Jurassic Park",
+        "genres": ["Science Fiction", "Action", "Adventure"]
+    },
+    {
+        "id": 5,
+        "name": "The Shawshank Redemption",
+        "genres": ["Drama"]
+    }, 
+    {
+        "id": 6,
+        "name": "The Godfather",
+        "genres": ["Crime", "Drama"]
+    },
+    {
+        "id": 7,
+        "name": "The Shawshank Redemption",
+        "genres": ["Drama"]
+    },
+    {
+        "id": 8,
+        "name": "Everything Everywhere All At Once",
+        "genres": ["Comedy", "Action", "Drama"]
+    },
+    {
+        "id": 9,
+        "name": "The Lord of the Rings: The Fellowship of the Ring",
+        "genres": ["Action", "Adventure", "Drama"]
+    },
+    {
+        "id": 10,
+        "name": "Pulp Fiction",
+        "genres": ["Crime", "Drama"]
+    },
+    {
+        "id": 11,
+        "name": "The Matrix",
+        "genres": ["Action", "Sci-Fi"]
+    },
+    {
+        "id": 12,
+        "name": "Forrest Gump",
+        "genres": ["Drama", "Romance"]
+    },
+    {
+        "id": 13,
+        "name": "Star Wars: Episode IV - A New Hope",
+        "genres": ["Action", "Adventure", "Fantasy"]
+    },
+    {
+        "id": 14,
+        "name": "Jurassic Park",
+        "genres": ["Adventure", "Sci-Fi", "Thriller"]
+    },
+    {
+        "id": 15,
+        "name": "Titanic",
+        "genres": ["Drama", "Romance"]
+    },
+    {
+        "id": 16,
+        "name": "Avatar",
+        "genres": ["Action", "Adventure", "Fantasy"]
+    },
+    {
+        "id": 17,
+        "name": "The Silence of the Lambs",
+        "genres": ["Crime", "Drama", "Thriller"]
+    },
+    {
+        "id": 18,
+        "name": "Goodfellas",
+        "genres": ["Crime", "Drama"]
+    },
+    {
+        "id": 19,
+        "name": "The Lion King",
+        "genres": ["Animation", "Adventure", "Drama"]
+    },
+    {
+        "id": 20,
+        "name": "Back to the Future",
+        "genres": ["Adventure", "Comedy", "Sci-Fi"]
+    },
+    {
+        "id": 21,
+        "name": "Die Hard",
+        "genres": ["Action", "Thriller"]
+    },
+    {
+        "id": 22,
+        "name": "Indiana Jones and the Raiders of the Lost Ark",
+        "genres": ["Action", "Adventure"]
+    },
+    {
+        "id": 23,
+        "name": "The Terminator",
+        "genres": ["Action", "Sci-Fi"]
+    },
+    {
+        "id": 24,
+        "name": "Rocky",
+        "genres": ["Drama", "Sport"]
+    },
+    {
+        "id": 25,
+        "name": "Jaws",
+        "genres": ["Adventure", "Drama", "Thriller"]
+    }
+]
